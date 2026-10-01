@@ -14,11 +14,11 @@ Intelligent Transportation Systems (ITS).
 
 ## Features
 
--   Adaptive signal control based on traffic density\
--   Starvation prevention using wait-time-based prioritization\
--   Emergency vehicle (ambulance) priority handling\
--   Real-time traffic simulation using multithreading\
--   Thread-safe design using mutex and atomic variables\
+-   Adaptive signal control based on traffic density
+-   Starvation prevention using wait-time-based prioritization
+-   Emergency vehicle (ambulance) priority handling
+-   Real-time traffic simulation using multithreading
+-   Thread-safe design using mutex and atomic variables
 -   Modular object-oriented architecture
 
 ------------------------------------------------------------------------
@@ -38,10 +38,10 @@ efficiency
 
 ### Threads
 
--   Traffic Generator Thread\
+-   Traffic Generator Thread
     Continuously simulates incoming vehicles and emergency events
 
--   Controller Thread\
+-   Controller Thread
     Manages signal switching and traffic flow
 
 ------------------------------------------------------------------------
@@ -50,8 +50,8 @@ efficiency
 
     score = (cars * 2) + (waitTime * 3)
 
--   Higher number of vehicles increases priority\
--   Waiting time ensures fairness and prevents starvation\
+-   Higher number of vehicles increases priority
+-   Waiting time ensures fairness and prevents starvation
 -   Emergency vehicles override normal scheduling
 
 ------------------------------------------------------------------------
@@ -97,11 +97,11 @@ efficiency
 
 ## Concepts Used
 
--   Multithreading (std::thread)\
--   Synchronization (std::mutex)\
--   Atomic variables\
--   Object-Oriented Programming\
--   Scheduling algorithms\
+-   Multithreading (std::thread)
+-   Synchronization (std::mutex)
+-   Atomic variables
+-   Object-Oriented Programming
+-   Scheduling algorithms
 -   Simulation design
 
 ------------------------------------------------------------------------
@@ -110,19 +110,19 @@ efficiency
 
 This project models key ideas used in modern traffic systems:
 
--   Adaptive traffic signal control\
--   Sensor-driven decision making (simulated)\
--   Emergency vehicle prioritization\
+-   Adaptive traffic signal control
+-   Sensor-driven decision making (simulated)
+-   Emergency vehicle prioritization
 -   Load balancing across intersections
 
 ------------------------------------------------------------------------
 
 ## Future Improvements
 
--   GUI visualization using SFML\
--   Vehicle detection using OpenCV\
--   Multi-intersection coordination\
--   Configurable system parameters\
--   Data logging and analytics\
+-   GUI visualization using SFML
+-   Vehicle detection using OpenCV
+-   Multi-intersection coordination
+-   Configurable system parameters
+-   Data logging and analytics
 -   Machine learning-based traffic prediction
 
